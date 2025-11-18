@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve" width="512" height="512">
+<g>
+	
+		<linearGradient id="Hologram_00000088114001920641944060000014242194951334875535_" gradientUnits="userSpaceOnUse" x1="0" y1="256" x2="512" y2="256">
+		<stop offset="0" style="stop-color:#5aa7ff"/>
+		<stop offset="1" style="stop-color:#9a72ff"/>
+	</linearGradient>
+	
+		<path id="Hologram" style="fill:none;stroke:url(#Hologram_00000088114001920641944060000014242194951334875535_);stroke-width:40;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" d="&#10;&#9;&#9;M60,492v-40c0-22.091,17.909-40,40-40h312c22.091,0,40,17.909,40,40v40 M256,140l100-60L256,20L156,80L256,140z M156,80v120l100,60&#10;&#9;&#9; M256,260l100-60V80 M256,140v120 M20,492h472 M20,136l116,196 M376,332l116-196"/>
+</g>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</svg>

@@ -1,0 +1,728 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED3EE91E2EC7A04100F14646 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3EE90E2EC7A04100F14646 /* AuthService.swift */; };
+		ED3EE91F2EC7A04100F14646 /* UploadService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3EE9122EC7A04100F14646 /* UploadService.swift */; };
+		ED3EE9202EC7A04100F14646 /* SubmitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3EE91A2EC7A04100F14646 /* SubmitView.swift */; };
+		ED3EE9212EC7A04100F14646 /* TicketViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3EE9142EC7A04100F14646 /* TicketViewModel.swift */; };
+		ED3EE9222EC7A04100F14646 /* MotionSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3EE90A2EC7A04100F14646 /* MotionSample.swift */; };
+		ED3EE9232EC7A04100F14646 /* TicketService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3EE9112EC7A04100F14646 /* TicketService.swift */; };
+		ED3EE9242EC7A04100F14646 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3EE9162EC7A04100F14646 /* HomeView.swift */; };
+		ED3EE9252EC7A04100F14646 /* MotionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3EE9102EC7A04100F14646 /* MotionService.swift */; };
+		ED3EE9262EC7A04100F14646 /* GoServeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3EE9082EC7A04100F14646 /* GoServeApp.swift */; };
+		ED3EE9272EC7A04100F14646 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3EE90F2EC7A04100F14646 /* LocationService.swift */; };
+		ED3EE9282EC7A04100F14646 /* AppDelegate+Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3EE9062EC7A04100F14646 /* AppDelegate+Upload.swift */; };
+		ED3EE9292EC7A04100F14646 /* ApiConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3EE90D2EC7A04100F14646 /* ApiConfig.swift */; };
+		ED3EE92A2EC7A04100F14646 /* TicketStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3EE91B2EC7A04100F14646 /* TicketStatusView.swift */; };
+		ED3EE92B2EC7A04100F14646 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3EE9182EC7A04100F14646 /* ResultView.swift */; };
+		ED3EE92C2EC7A04100F14646 /* ScanResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3EE90B2EC7A04100F14646 /* ScanResult.swift */; };
+		ED3EE92D2EC7A04100F14646 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3EE9172EC7A04100F14646 /* LoginView.swift */; };
+		ED3EE92E2EC7A04100F14646 /* ScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3EE9192EC7A04100F14646 /* ScanView.swift */; };
+		ED3EE92F2EC7A04100F14646 /* GPSData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3EE9092EC7A04100F14646 /* GPSData.swift */; };
+		ED3EE9312EC7A04100F14646 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3EE9302EC7A04100F14646 /* WelcomeView.swift */; };
+		ED3EE9332EC7A04100F14646 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3EE9322EC7A04100F14646 /* SettingsView.swift */; };
+		ED3EE93D2EC7A04100F14646 /* LaunchScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3EE93E2EC7A04100F14646 /* LaunchScreenView.swift */; };
+		ED3EE9382EC7A04100F14646 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED3EE9372EC7A04100F14646 /* Assets.xcassets */; };
+		ED3EE9392EC7A04100F14646 /* PremiumButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3EE93A2EC7A04100F14646 /* PremiumButton.swift */; };
+		ED3EE93B2EC7A04100F14646 /* ModernCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3EE93C2EC7A04100F14646 /* ModernCard.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED3EE8EA2EC79E8B00F14646 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED3EE8D12EC79E8800F14646 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED3EE8D82EC79E8800F14646;
+			remoteInfo = "GoSurve";
+		};
+		ED3EE8F42EC79E8B00F14646 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED3EE8D12EC79E8800F14646 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED3EE8D82EC79E8800F14646;
+			remoteInfo = "GoSurve";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED3EE8D92EC79E8800F14646 /* GoSurve.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GoSurve.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED3EE8E92EC79E8B00F14646 /* Go-serveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Go-serveTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED3EE8F32EC79E8B00F14646 /* Go-serveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Go-serveUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED3EE9062EC7A04100F14646 /* AppDelegate+Upload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate+Upload.swift"; sourceTree = "<group>"; };
+		ED3EE9072EC7A04100F14646 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED3EE9082EC7A04100F14646 /* GoServeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoServeApp.swift; sourceTree = "<group>"; };
+		ED3EE9092EC7A04100F14646 /* GPSData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPSData.swift; sourceTree = "<group>"; };
+		ED3EE90A2EC7A04100F14646 /* MotionSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionSample.swift; sourceTree = "<group>"; };
+		ED3EE90B2EC7A04100F14646 /* ScanResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanResult.swift; sourceTree = "<group>"; };
+		ED3EE90D2EC7A04100F14646 /* ApiConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiConfig.swift; sourceTree = "<group>"; };
+		ED3EE90E2EC7A04100F14646 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		ED3EE90F2EC7A04100F14646 /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		ED3EE9102EC7A04100F14646 /* MotionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionService.swift; sourceTree = "<group>"; };
+		ED3EE9112EC7A04100F14646 /* TicketService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketService.swift; sourceTree = "<group>"; };
+		ED3EE9122EC7A04100F14646 /* UploadService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadService.swift; sourceTree = "<group>"; };
+		ED3EE9142EC7A04100F14646 /* TicketViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketViewModel.swift; sourceTree = "<group>"; };
+		ED3EE9162EC7A04100F14646 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		ED3EE9172EC7A04100F14646 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		ED3EE9182EC7A04100F14646 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		ED3EE9192EC7A04100F14646 /* ScanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanView.swift; sourceTree = "<group>"; };
+		ED3EE91A2EC7A04100F14646 /* SubmitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitView.swift; sourceTree = "<group>"; };
+		ED3EE91B2EC7A04100F14646 /* TicketStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketStatusView.swift; sourceTree = "<group>"; };
+		ED3EE9302EC7A04100F14646 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		ED3EE9322EC7A04100F14646 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		ED3EE93E2EC7A04100F14646 /* LaunchScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenView.swift; sourceTree = "<group>"; };
+				ED3EE9372EC7A04100F14646 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "GoSurve/Assets.xcassets"; sourceTree = SOURCE_ROOT; };
+		ED3EE93A2EC7A04100F14646 /* PremiumButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PremiumButton.swift; sourceTree = "<group>"; };
+		ED3EE93C2EC7A04100F14646 /* ModernCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModernCard.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		ED3EE8DB2EC79E8800F14646 /* GoSurve */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "GoSurve";
+			sourceTree = "<group>";
+		};
+		ED3EE8EC2EC79E8B00F14646 /* Go-serveTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Go-serveTests";
+			sourceTree = "<group>";
+		};
+		ED3EE8F62EC79E8B00F14646 /* Go-serveUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Go-serveUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED3EE8D62EC79E8800F14646 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED3EE8E62EC79E8B00F14646 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED3EE8F02EC79E8B00F14646 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED3EE8D02EC79E8800F14646 = {
+			isa = PBXGroup;
+			children = (
+				ED3EE9052EC7A04100F14646 /* App */,
+				ED3EE90C2EC7A04100F14646 /* Models */,
+				ED3EE9132EC7A04100F14646 /* Services */,
+				ED3EE9152EC7A04100F14646 /* ViewModels */,
+				ED3EE91C2EC7A04100F14646 /* Views */,
+				ED3EE9342EC7A04100F14646 /* Components */,
+				ED3EE9352EC7A04100F14646 /* Extensions */,
+				ED3EE8DB2EC79E8800F14646 /* Go-serve */,
+				ED3EE8EC2EC79E8B00F14646 /* Go-serveTests */,
+				ED3EE8F62EC79E8B00F14646 /* Go-serveUITests */,
+				ED3EE8DA2EC79E8800F14646 /* Products */,
+				ED3EEBB62EC8B8C000F14646 /* Recovered References */,
+			);
+			sourceTree = "<group>";
+		};
+		ED3EE8DA2EC79E8800F14646 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED3EE8D92EC79E8800F14646 /* GoSurve.app */,
+				ED3EE8E92EC79E8B00F14646 /* Go-serveTests.xctest */,
+				ED3EE8F32EC79E8B00F14646 /* Go-serveUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED3EE9052EC7A04100F14646 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				ED3EE9082EC7A04100F14646 /* GoServeApp.swift */,
+				ED3EE9062EC7A04100F14646 /* AppDelegate+Upload.swift */,
+				ED3EE9072EC7A04100F14646 /* Info.plist */,
+			);
+			name = App;
+			path = "GoSurve/App";
+			sourceTree = SOURCE_ROOT;
+		};
+		ED3EE90C2EC7A04100F14646 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ED3EE9092EC7A04100F14646 /* GPSData.swift */,
+				ED3EE90A2EC7A04100F14646 /* MotionSample.swift */,
+				ED3EE90B2EC7A04100F14646 /* ScanResult.swift */,
+			);
+			name = Models;
+			path = "GoSurve/Models";
+			sourceTree = SOURCE_ROOT;
+		};
+		ED3EE9132EC7A04100F14646 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				ED3EE90D2EC7A04100F14646 /* ApiConfig.swift */,
+				ED3EE90E2EC7A04100F14646 /* AuthService.swift */,
+				ED3EE90F2EC7A04100F14646 /* LocationService.swift */,
+				ED3EE9102EC7A04100F14646 /* MotionService.swift */,
+				ED3EE9112EC7A04100F14646 /* TicketService.swift */,
+				ED3EE9122EC7A04100F14646 /* UploadService.swift */,
+			);
+			name = Services;
+			path = "GoSurve/Services";
+			sourceTree = SOURCE_ROOT;
+		};
+		ED3EE9152EC7A04100F14646 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				ED3EE9142EC7A04100F14646 /* TicketViewModel.swift */,
+			);
+			name = ViewModels;
+			path = "GoSurve/ViewModels";
+			sourceTree = SOURCE_ROOT;
+		};
+		ED3EE91C2EC7A04100F14646 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ED3EE9162EC7A04100F14646 /* HomeView.swift */,
+				ED3EE9172EC7A04100F14646 /* LoginView.swift */,
+				ED3EE9182EC7A04100F14646 /* ResultView.swift */,
+				ED3EE9192EC7A04100F14646 /* ScanView.swift */,
+				ED3EE91A2EC7A04100F14646 /* SubmitView.swift */,
+				ED3EE91B2EC7A04100F14646 /* TicketStatusView.swift */,
+				ED3EE9302EC7A04100F14646 /* WelcomeView.swift */,
+				ED3EE9322EC7A04100F14646 /* SettingsView.swift */,
+				ED3EE93E2EC7A04100F14646 /* LaunchScreenView.swift */,
+			);
+			name = Views;
+			path = "GoSurve/Views";
+			sourceTree = SOURCE_ROOT;
+		};
+		ED3EE9342EC7A04100F14646 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				ED3EE93C2EC7A04100F14646 /* ModernCard.swift */,
+				ED3EE93A2EC7A04100F14646 /* PremiumButton.swift */,
+			);
+			name = Components;
+			path = "GoSurve/Components";
+			sourceTree = SOURCE_ROOT;
+		};
+		ED3EE9352EC7A04100F14646 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Extensions;
+			path = "GoSurve/Extensions";
+			sourceTree = SOURCE_ROOT;
+		};
+		ED3EEBB62EC8B8C000F14646 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				ED3EE9372EC7A04100F14646 /* Assets.xcassets */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED3EE8D82EC79E8800F14646 /* GoSurve */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED3EE8FD2EC79E8B00F14646 /* Build configuration list for PBXNativeTarget "GoSurve" */;
+			buildPhases = (
+				ED3EE8D52EC79E8800F14646 /* Sources */,
+				ED3EE8D62EC79E8800F14646 /* Frameworks */,
+				ED3EE8D72EC79E8800F14646 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GoSurve";
+			packageProductDependencies = (
+			);
+			productName = "GoSurve";
+			productReference = ED3EE8D92EC79E8800F14646 /* GoSurve.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED3EE8E82EC79E8B00F14646 /* Go-serveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED3EE9002EC79E8B00F14646 /* Build configuration list for PBXNativeTarget "Go-serveTests" */;
+			buildPhases = (
+				ED3EE8E52EC79E8B00F14646 /* Sources */,
+				ED3EE8E62EC79E8B00F14646 /* Frameworks */,
+				ED3EE8E72EC79E8B00F14646 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED3EE8EB2EC79E8B00F14646 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				ED3EE8EC2EC79E8B00F14646 /* Go-serveTests */,
+			);
+			name = "Go-serveTests";
+			packageProductDependencies = (
+			);
+			productName = "Go-serveTests";
+			productReference = ED3EE8E92EC79E8B00F14646 /* Go-serveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED3EE8F22EC79E8B00F14646 /* Go-serveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED3EE9032EC79E8B00F14646 /* Build configuration list for PBXNativeTarget "Go-serveUITests" */;
+			buildPhases = (
+				ED3EE8EF2EC79E8B00F14646 /* Sources */,
+				ED3EE8F02EC79E8B00F14646 /* Frameworks */,
+				ED3EE8F12EC79E8B00F14646 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED3EE8F52EC79E8B00F14646 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				ED3EE8F62EC79E8B00F14646 /* Go-serveUITests */,
+			);
+			name = "Go-serveUITests";
+			packageProductDependencies = (
+			);
+			productName = "Go-serveUITests";
+			productReference = ED3EE8F32EC79E8B00F14646 /* Go-serveUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED3EE8D12EC79E8800F14646 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					ED3EE8D82EC79E8800F14646 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					ED3EE8E82EC79E8B00F14646 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = ED3EE8D82EC79E8800F14646;
+					};
+					ED3EE8F22EC79E8B00F14646 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = ED3EE8D82EC79E8800F14646;
+					};
+				};
+			};
+			buildConfigurationList = ED3EE8D42EC79E8800F14646 /* Build configuration list for PBXProject "Go-serve" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED3EE8D02EC79E8800F14646;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = ED3EE8DA2EC79E8800F14646 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED3EE8D82EC79E8800F14646 /* GoSurve */,
+				ED3EE8E82EC79E8B00F14646 /* Go-serveTests */,
+				ED3EE8F22EC79E8B00F14646 /* Go-serveUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED3EE8D72EC79E8800F14646 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED3EE9382EC7A04100F14646 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED3EE8E72EC79E8B00F14646 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED3EE8F12EC79E8B00F14646 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED3EE8D52EC79E8800F14646 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED3EE91E2EC7A04100F14646 /* AuthService.swift in Sources */,
+				ED3EE91F2EC7A04100F14646 /* UploadService.swift in Sources */,
+				ED3EE9202EC7A04100F14646 /* SubmitView.swift in Sources */,
+				ED3EE9212EC7A04100F14646 /* TicketViewModel.swift in Sources */,
+				ED3EE9222EC7A04100F14646 /* MotionSample.swift in Sources */,
+				ED3EE9232EC7A04100F14646 /* TicketService.swift in Sources */,
+				ED3EE9242EC7A04100F14646 /* HomeView.swift in Sources */,
+				ED3EE9252EC7A04100F14646 /* MotionService.swift in Sources */,
+				ED3EE9262EC7A04100F14646 /* GoServeApp.swift in Sources */,
+				ED3EE9272EC7A04100F14646 /* LocationService.swift in Sources */,
+				ED3EE9282EC7A04100F14646 /* AppDelegate+Upload.swift in Sources */,
+				ED3EE9292EC7A04100F14646 /* ApiConfig.swift in Sources */,
+				ED3EE92A2EC7A04100F14646 /* TicketStatusView.swift in Sources */,
+				ED3EE92B2EC7A04100F14646 /* ResultView.swift in Sources */,
+				ED3EE92C2EC7A04100F14646 /* ScanResult.swift in Sources */,
+				ED3EE92D2EC7A04100F14646 /* LoginView.swift in Sources */,
+				ED3EE92E2EC7A04100F14646 /* ScanView.swift in Sources */,
+				ED3EE92F2EC7A04100F14646 /* GPSData.swift in Sources */,
+				ED3EE9312EC7A04100F14646 /* WelcomeView.swift in Sources */,
+				ED3EE9332EC7A04100F14646 /* SettingsView.swift in Sources */,
+				ED3EE93D2EC7A04100F14646 /* LaunchScreenView.swift in Sources */,
+				ED3EE9392EC7A04100F14646 /* PremiumButton.swift in Sources */,
+				ED3EE93B2EC7A04100F14646 /* ModernCard.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED3EE8E52EC79E8B00F14646 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED3EE8EF2EC79E8B00F14646 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED3EE8EB2EC79E8B00F14646 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED3EE8D82EC79E8800F14646 /* GoSurve */;
+			targetProxy = ED3EE8EA2EC79E8B00F14646 /* PBXContainerItemProxy */;
+		};
+		ED3EE8F52EC79E8B00F14646 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED3EE8D82EC79E8800F14646 /* GoSurve */;
+			targetProxy = ED3EE8F42EC79E8B00F14646 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ED3EE8FB2EC79E8B00F14646 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED3EE8FC2EC79E8B00F14646 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED3EE8FE2EC79E8B00F14646 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GoSurve/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "GoSurve/App/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thaka.GoSurve";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED3EE8FF2EC79E8B00F14646 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GoSurve/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "GoSurve/App/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thaka.GoSurve";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ED3EE9012EC79E8B00F14646 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thaka.GoSurveTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoSurve.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GoSurve";
+			};
+			name = Debug;
+		};
+		ED3EE9022EC79E8B00F14646 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thaka.GoSurveTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoSurve.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GoSurve";
+			};
+			name = Release;
+		};
+		ED3EE9042EC79E8B00F14646 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thaka.GoSurveUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "GoSurve";
+			};
+			name = Debug;
+		};
+		ED3EE9052EC79E8B00F14646 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thaka.GoSurveUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "GoSurve";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED3EE8D42EC79E8800F14646 /* Build configuration list for PBXProject "GoSurve" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED3EE8FB2EC79E8B00F14646 /* Debug */,
+				ED3EE8FC2EC79E8B00F14646 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED3EE8FD2EC79E8B00F14646 /* Build configuration list for PBXNativeTarget "Go-serve" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED3EE8FE2EC79E8B00F14646 /* Debug */,
+				ED3EE8FF2EC79E8B00F14646 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED3EE9002EC79E8B00F14646 /* Build configuration list for PBXNativeTarget "Go-serveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED3EE9012EC79E8B00F14646 /* Debug */,
+				ED3EE9022EC79E8B00F14646 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED3EE9032EC79E8B00F14646 /* Build configuration list for PBXNativeTarget "Go-serveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED3EE9042EC79E8B00F14646 /* Debug */,
+				ED3EE9052EC79E8B00F14646 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED3EE8D12EC79E8800F14646 /* Project object */;
+}
