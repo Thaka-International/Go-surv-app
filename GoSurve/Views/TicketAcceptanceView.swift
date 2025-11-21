@@ -257,7 +257,7 @@ struct TicketAcceptanceView: View {
         acceptanceTimer.stopTimer()
         
         do {
-            let updatedTicket = try await ticketService.acceptTicket(ticketId: ticket.id, note: nil)
+            _ = try await ticketService.acceptTicket(ticketId: ticket.id, note: nil)
             // Ticket status is automatically updated by backend to ACCEPTED
             // The response contains the updated ticket with new status
             dismiss()

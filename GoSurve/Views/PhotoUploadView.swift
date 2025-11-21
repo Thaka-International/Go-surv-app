@@ -239,7 +239,7 @@ struct PhotoUploadView: View {
         }
         
         do {
-            let updatedTicket = try await ticketService.uploadPhotos(
+            _ = try await ticketService.uploadPhotos(
                 ticketId: ticket.id,
                 photos: photoData,
                 notes: notes.isEmpty ? nil : notes

@@ -196,7 +196,7 @@ struct LocationRegistrationView: View {
             // Ensure accuracy is valid (not NaN or negative)
             let accuracy = location.horizontalAccuracy.isNaN || location.horizontalAccuracy < 0 ? 0 : location.horizontalAccuracy
             
-            let updatedTicket = try await ticketService.registerLocation(
+            _ = try await ticketService.registerLocation(
                 ticketId: ticket.id,
                 latitude: location.coordinate.latitude,
                 longitude: location.coordinate.longitude,

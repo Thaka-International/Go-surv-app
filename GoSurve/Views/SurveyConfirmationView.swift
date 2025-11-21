@@ -221,7 +221,7 @@ struct SurveyConfirmationView: View {
         errorMessage = nil
         
         do {
-            let updatedTicket = try await ticketService.finalizeTicket(
+            _ = try await ticketService.finalizeTicket(
                 ticketId: ticket.id,
                 notes: finalNotes.isEmpty ? nil : finalNotes,
                 confirmSurveyStandards: confirmSurveyStandards
