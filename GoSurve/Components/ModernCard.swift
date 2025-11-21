@@ -123,6 +123,7 @@ struct ModernTextField: View {
     var placeholder: String = ""
     var isSecure: Bool = false
     var icon: String? = nil
+    @State private var showPassword: Bool = false
     
     var body: some View {
         VStack(alignment: .leading, spacing: 8) {
@@ -141,9 +142,26 @@ struct ModernTextField: View {
                 }
                 
                 if isSecure {
-                    SecureField(placeholder, text: $text)
-                        .font(.body)
-                        .foregroundColor(Color(red: 0.1, green: 0.1, blue: 0.1))
+                    Group {
+                        if showPassword {
+                            TextField(placeholder, text: $text)
+                                .font(.body)
+                                .foregroundColor(Color(red: 0.1, green: 0.1, blue: 0.1))
+                                .autocapitalization(.none)
+                        } else {
+                            SecureField(placeholder, text: $text)
+                                .font(.body)
+                                .foregroundColor(Color(red: 0.1, green: 0.1, blue: 0.1))
+                        }
+                    }
+                    
+                    Button(action: {
+                        showPassword.toggle()
+                    }) {
+                        Image(systemName: showPassword ? "eye.slash.fill" : "eye.fill")
+                            .foregroundColor(Color(red: 0.5, green: 0.5, blue: 0.5))
+                            .frame(width: 20)
+                    }
                 } else {
                     TextField(placeholder, text: $text)
                         .font(.body)
